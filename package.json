@@ -1,0 +1,14 @@
+{
+  "name": "mar25tdd",
+  "version": "1.0.0",
+  "description": "test driven HST",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
