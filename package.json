@@ -4,11 +4,13 @@
   "description": "test driven HST",
   "main": "public/index.html",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel public/index.html --no-hmr"
   },
   "author": "Rich Hildred",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^24.5.0"
+    "jest": "^24.5.0",
+    "parcel": "^1.12.3"
   }
 }
