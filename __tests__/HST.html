@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>HST</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ON</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:1234/<datalist><option>http://localhost:1234/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td>10</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]</option><option>//button[@type='submit']</option><option>//form[@id='amountForm']/button</option><option>//button</option><option>css=button[type="submit"]</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=total<datalist><option>id=total</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::div[1]</option><option>//div[@id='total']</option><option>//div[3]</option><option>css=#total</option></datalist></td><td>11.3</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">MB</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:1234/?<datalist><option>http://localhost:1234/?</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td>10</td>
+</tr>
+<tr><td>click</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td>label=Manitoba</td>
+</tr>
+<tr><td>click</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]</option><option>//button[@type='submit']</option><option>//form[@id='amountForm']/button</option><option>//button</option><option>css=button[type="submit"]</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=total<datalist><option>id=total</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::div[1]</option><option>//div[@id='total']</option><option>//div[3]</option><option>css=#total</option></datalist></td><td>11.3</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">BC</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:1234/?<datalist><option>http://localhost:1234/?</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=amount<datalist><option>id=amount</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::input[1]</option><option>//input[@id='amount']</option><option>//form[@id='amountForm']/input</option><option>//input</option><option>css=#amount</option></datalist></td><td>10</td>
+</tr>
+<tr><td>click</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td>label=British Columbia</td>
+</tr>
+<tr><td>click</td><td>id=province<datalist><option>id=province</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</option><option>//select[@id='province']</option><option>//form[@id='amountForm']/select</option><option>//select</option><option>css=#province</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::button[1]</option><option>//button[@type='submit']</option><option>//form[@id='amountForm']/button</option><option>//button</option><option>css=button[type="submit"]</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=total<datalist><option>id=total</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adding Machine'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::div[1]</option><option>//div[@id='total']</option><option>//div[3]</option><option>css=#total</option></datalist></td><td>11.2</td>
+</tr>
+</tbody></table>
+</body>
+</html>
